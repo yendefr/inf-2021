@@ -3,7 +3,7 @@ text = open('./24_demo.txt').read()
 
 current_len = 0
 max_len = 0
-for letter in text:
+for letter in text: 
     if letter == 'Y':
         current_len += 1
     else:
